@@ -1,0 +1,94 @@
+/*
+ * Base structure
+ */
+
+html {
+  height: 100%;
+}
+
+body {
+  background: #444;
+  color: #fff;
+  height: 100%;
+  margin: 0;
+  font-family: fantasy;
+  line-height: 1.5;
+}
+body#bg-image {
+  background: url(/img/mybg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+body#bg-image:after {
+  content: "";
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgba(68, 68, 68, 0.9);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.7);
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #bc986a;
+  text-shadow: 0 0.25rem 0.1rem rgba(0, 0, 0, 0.5);
+  /* box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5); */
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+/*
+ * Header
+ */
+
+/*
+ * Cover
+ */
+.cover {
+  padding: 0 1.5rem;
+}
+.cover .btn-lg {
+  padding: 0.75rem 1.25rem;
+  font-weight: 700;
+}
+
+.cover-heading {
+  font-size: 4rem;
+}
+
+.p-main {
+  text-transform: uppercase;
+  font-style: italic;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  columns: #fbeec1;
+  font-weight: 300;
+}
+
+.quote {
+  color: #daad86;
+  font-size: 22px;
+  float: right;
+  background-color: transparent;
+}
+
+.quote:hover {
+  transition: background 1s ease-out;
+  color: #bc986a;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
