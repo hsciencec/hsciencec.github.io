@@ -32,6 +32,8 @@ body {
   top: 0;
   width: 130%;
   height: 100%;
+  /* filter: grayscale(80%); */
+  filter: brightness(20%);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
@@ -39,12 +41,14 @@ body {
 .swiper-slide .title {
   font-size: 41px;
   font-weight: 300;
+  font-weight: bold;
 }
 .swiper-slide .subtitle {
   font-size: 21px;
 }
 .swiper-slide .text {
   font-size: 14px;
-  max-width: 400px;
+  max-width: 750px;
   line-height: 1.3;
+  font-weight: bold;
 }

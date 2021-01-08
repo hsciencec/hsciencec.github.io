@@ -80,6 +80,13 @@ body {
   background-color: transparent;
 }
 
+.self {
+  color: #daad86;
+  font-size: 17px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: transparent;
+}
+
 .quote:hover {
   transition: background 1s ease-out;
   color: #bc986a;

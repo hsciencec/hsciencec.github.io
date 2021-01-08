@@ -21,24 +21,55 @@
     <div class="swiper-container">
       <div
         class="parallax-bg"
-        style="background-image:url(img/mybg.jpg)"
+        style="background-image:url(img/bg2.jpg)"
         data-swiper-parallax="-23%"
       ></div>
       <div class="swiper-wrapper">
+
+
+        <div class="swiper-slide" style="height: auto;">
+          <div
+            class="title"
+            data-swiper-parallax="-300"
+            data-swiper-parallax-opacity="0"
+          >
+            Beluga
+          </div>
+          <!-- <div class="subtitle" data-swiper-parallax="-200">Fall 2018</div> -->
+          <div class="text" data-swiper-parallax="-300">
+            <p>
+              Decawave DWM1001-DEV board firmware for building ad-hoc distance measurement network. Beluga makes it more convenient for users to create an ad-hoc distance measurement network.
+               Users can enter different types of AT commands through serial monitor to configure the properties of the DWM1001-DEV board.
+               For example, change the channel of the UWB signal and polling frequency.
+               These features enable users to customize their own network setup and meet the requirements.
+               Beluga can be applied in the area of localization, robotics, and infrastructure sensing.
+            </p>
+            <a href="https://github.com/WiseLabCMU/Beluga">Beluga repo link</a>
+            <br><br>
+
+            <div class="video" style="height: 25rem; width: auto;">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/Jkrw4aM9-sI"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+
         <div class="swiper-slide">
           <div class="title" data-swiper-parallax="-300">
-            Online Data Visualization System
+            Online Data Visualization System (ODVS)
           </div>
-          <div class="subtitle" data-swiper-parallax="-200">Fall 2019</div>
+          <!-- <div class="subtitle" data-swiper-parallax="-200">Fall 2019</div> -->
           <div class="text" data-swiper-parallax="-100">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+              In “Online Data Visualization System” project, the main idea is that users can upload data into a database,
+              then the website can extract data from the database to perform data visualization on the website. 
+              Users also can choose which database they want to present or which chart type they want to use.
+              This system is written mainly by HTML5, Bootstrap, and Chart.js libraries for front-end development,
+              Django for back-end development, and combining MySQL for the database.
             </p>
           </div>
 
@@ -51,44 +82,102 @@
             </iframe>
           </div>
         </div>
-        <div class="swiper-slide" style="height: auto;">
-          <div
-            class="title"
-            data-swiper-parallax="-300"
-            data-swiper-parallax-opacity="0"
-          >
-            Online Apartment Rental System
+
+
+        <div class="swiper-slide">
+          <div class="title" data-swiper-parallax="-300">
+            STM32 RTOS and Linux kernel development
           </div>
-          <div class="subtitle" data-swiper-parallax="-200">Fall 2018</div>
+          <!-- <div class="subtitle" data-swiper-parallax="-200">Fall 2019</div> -->
           <div class="text" data-swiper-parallax="-100">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+              STM32 RTOS <br>
+              Build a custom PCB expansion board connected to STM32F4 Nucleo development board. 
+              Developed UART, I2C, SPI, ADC, and LED driver to allow users to collect data from sensors,
+               then display values on the LED. Implemented syscalls, context switching, mutexes,
+                and rate monotonic scheduler for multi-threaded RTOS from scratch.
+              <br>
+              <br>
+            </p>
+            <img src="img/stm32.jpg" width="350" height="250">
+            <p>
+              Linux Kernel <br>
+                Built new syscalls that sets a process to use Linux’s deadline scheduler on a particular core.
+                Implemented Best-Fit Decreasing algorithm to find a CPU core that has the minimum space also maintain schedulability.
             </p>
           </div>
+          
+          <img src="img/sched.jpg" width="900" height="180">
         </div>
+
+        <div class="swiper-slide">
+          <div class="title" data-swiper-parallax="-300">
+            BasPi
+          </div>
+          <!-- <div class="subtitle" data-swiper-parallax="-200">Fall 2019</div> -->
+          <div class="text" data-swiper-parallax="-100">
+            <p>
+              BasPi is designed to detect the water level and water temperature of a bathtub,
+               and consists of two parts: the first part uses water level and temperature sensors to detect bathtub water level
+                and water temperature, the second part uses the buzzer and LED lights to notify the user.
+                Imagine being back home late with an unfinished assignment and at the same time in need of a bath.
+                 You are in a dilemma, as it is approaching assignment due time and need to frequently check the bathtub water situation.
+                BasPi is an intelligent Bathtub monitoring system, reducing manual checks of bathtub situation to save time.
+            </p>
+          </div>
+          <img src="img/baspi1.png" width="400" height="300">
+          <img src="img/baspi2.png" width="400" height="300">
+        </div>
+
+
         <div class="swiper-slide">
           <div class="title" data-swiper-parallax="-300">
             Image Annotation Tools for YOLO3
           </div>
-          <div class="subtitle" data-swiper-parallax="-200">Fall 2019</div>
+          <!-- <div class="subtitle" data-swiper-parallax="-200">Fall 2019</div> -->
           <div class="text" data-swiper-parallax="-100">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-              laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-              Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-              Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-              ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-              tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+              It is lovely that computers can assist humans to find objects when people cannot
+              find them. In the “Things Finder – An image annotation tool for YOLO3” project,
+              the program can help users annotate images easily and saving time. Then, users can
+              use the output files from this image annotation program to do further object
+              detection projects, for example, helping users to find things they lost.
             </p>
           </div>
+
+          <div class="video" style="height: 25rem; width: auto;">
+            <iframe
+              width="60%"
+              height="100%"
+              src="https://www.youtube.com/embed/TRbKKf7QrI4"
+            >
+            </iframe>
+          </div>
         </div>
+
+        <div class="swiper-slide">
+          <div class="title" data-swiper-parallax="-300">
+            Using transfer learning to evaluate building condition
+          </div>
+          <!-- <div class="subtitle" data-swiper-parallax="-200">Fall 2019</div> -->
+          <div class="text" data-swiper-parallax="-100">
+            <p>
+              With the aging of infrastructure, the government and asset managers need to apply more convenient means to evaluate the safety of infrastructure and buildings. 
+              The way to evaluate the structure and appearance of infrastructure today is to conduct artificial inspections at regular intervals. 
+              Although this method is effective, it takes more time and workforce. 
+              This research mainly discusses two directions. 1. Whether transfer learning can be used to effectively evaluate the structure and condition of the building.
+               2. Which kind of CNN architecture is more suitable for evaluating the structure and appearance of buildings.
+                 Eight different pre-trained models is used to compare the results.
+                 Results show that the two CNN architectures NASNetMobile and DenseNet169 have no overfitting phenomenon in the training results, which is more suitable for the evaluation of building structure and appearance.
+                  The accuracy of these two models in the test data is around 79%, representing the method mentioned in this article is effective in identifying the condition of infrastructures and can be used in the field of infrastructure assessment for facility managers.
+            </p>
+          </div>
+          <img src="img/dl2.jpg" width="400" height="200"><br>
+          <img src="img/dl1.jpg" width="250" height="600">
+          
+        </div>
+
+
       </div>
       <!-- Add Pagination -->
       <div class="swiper-pagination swiper-pagination-white"></div>
